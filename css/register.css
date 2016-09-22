@@ -1,0 +1,28 @@
+
+.register-contain {
+    width: 500px;
+    //background-color: #9d9d9d;
+    margin: 0 auto;
+    padding-left: 280px;
+}
+.register-contain input {
+    display: block;
+    width: 100%;
+    line-height: 3;
+    margin-top: 20px;
+    border-style: none;
+    outline: none;
+    border-bottom: solid 1px #A6C8FF;
+    padding-left: 5px;
+    font-size: 16px;
+}
+#bntregistere {
+    border-radius: 5px;
+    background-color: #5bc0de;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.forget-password {
+    display: block;
+    margin-top: 10px;
+}

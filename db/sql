@@ -1,0 +1,29 @@
+
+
+create TABLE liuyong(
+ uid int unsigned  auto_increment not null ,
+ uname varchar(128) UNIQUE not null  DEFAULT '' ,
+ password varchar(64) NOT NULL DEFAULT '',
+normalscore varchar(64) not NULL  DEFAULT '',
+examscore varchar(64) not null DEFAULT '',
+totalscore varchar(64) not null DEFAULT '',
+ primary key(uid),
+ key(uname)
+ )engine=innodb DEFAULT charset=utf8;
+
+ create TABLE teacher(
+ uid int unsigned  auto_increment not null ,
+ name varchar(128) UNIQUE not null  DEFAULT '' ,
+ password varchar(64) NOT NULL DEFAULT '',
+ primary key(uid),
+ key(name)
+ )engine=innodb DEFAULT charset=utf8;
+
+
+ create table visit
+(
+  hostuid int unsigned not null DEFAULT 0,
+  visittime int unsigned not null DEFAULT 0,
+  visitip char(32) not null DEFAULT '',
+  index(hostuid)
+)engine=innodb default charset=utf8;

@@ -1,0 +1,146 @@
+.main-content {
+    font-size: 14px;
+}
+.myinfo {
+    overflow: hidden;
+}
+.myinfo form {
+    overflow: hidden;
+}
+.myinfo-img {
+    width: 215px;
+    padding: 10px;
+    float: left;
+    position: relative;
+
+}
+.myinfo-img > img{
+    height: 200px;
+    width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+.myinfo-img input {
+    display: block;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.myinfo-info {
+    //float: left;
+    //margin-left: 100px;
+}
+.myinfo-info > input {
+    //width: 300px;
+    margin-top: 0;
+}
+.myinfo-info > i {
+    font-style: normal;
+    display: block;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+.myinfo-save[type=submit] {
+    border-radius: 5px;
+    font-size: 14px;
+    border-style: none;
+    padding: 10px;
+    background-color: #5bc0de;
+    color: #ffffff;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.myinfo-base {
+    float: right;
+    margin-left: 30px;
+    width: 450px;
+}
+.myinfo-nickname {
+    font-size: 40px;
+    font-weight: bolder;
+    display: inline-block;
+}
+.myinfo-gender {
+    width: 20px;
+    height: 20px;
+    //background-image: url(../img/male.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    //background-size: 20px;
+    background-size:contain;
+    display: inline-block;
+    margin-left: 20px;
+}
+.myinfo-gender img {
+    width: 100%;
+}
+.myinfo-motto {
+    color: #666;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.myinfo-base-attr {
+    margin-top: 20px;
+    line-height: 1.5em;
+    color: #666;
+    border: 1px solid #e5e5e5;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+}
+.myinfo-base-attr b {
+    font-size: 12px;
+}
+.myinfo-attach {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bolder;
+    float: right;
+}
+.myinfo-attach-me {
+    //border-top: solid 1px #ccc;
+    margin-top: 50px;
+}
+.myinfo-attach-title {
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 5px;
+}
+.myinfo-attach-icon {
+    display: inline-block;
+    //background-image: url("../img/icon.png");
+    width: 50px;
+    height: 50px;
+    background-size:contain;
+    //overflow: hidden;
+}
+.myinfo-attach-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.myinfo-me-attach,.myinfo-recent-visit {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.myinfo-attach-info {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    //float: left;
+    //margin-left: 340px;
+}
+.ul-ta-info {
+    margin-top: 30px;
+    //font-size: 16px;
+
+}
+.ul-ta-info label {
+    display: block;
+    margin-top: 10px;
+}

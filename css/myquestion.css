@@ -1,0 +1,41 @@
+
+.myquetion {
+    margin-top: 20px;
+}
+.myquestion-content {
+    margin-top: 20px;
+}
+.myquestion-title input {
+    border-style: none;
+    border: solid 1px #9d9d9d;
+    width: 300px;
+    line-height: 1.5;
+    padding: 5px;
+    border-radius: 5px;
+}
+#myquestion-content {
+    width: 98%;
+    line-height: 1.5;
+    padding: 5px;
+    border-radius: 5px;
+}
+#myquestion {
+    border-style: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #5bc0de;
+    color: #FFFFEE;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.myquestin-anonymity {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.myquestin-anonymity label {
+    margin-right: 10px;
+}
+.myquestin-anonymity input {
+}

@@ -1,0 +1,12 @@
+/* 淡蓝色底框文本域 */
+.txt-blue-bottom {
+    display: block;
+    width: 100%;
+    line-height: 3;
+    margin-top: 20px;
+    border-style: none;
+    outline: none;
+    border-bottom: solid 1px #A6C8FF;
+    padding-left: 5px;
+    font-size: 16px;
+}

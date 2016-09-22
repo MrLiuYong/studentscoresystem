@@ -1,0 +1,65 @@
+
+.answer-contain {
+    margin-top: 20px;
+    font-size: 15px;
+    border-bottom: solid 1px #eee;
+}
+.answerer-info {
+    overflow: hidden;
+}
+.answerer-name {
+    font-weight: bolder;
+    float: left;
+    font-size: 16px;
+}
+.anserer-attr {
+    float: left;
+    margin-left: 10px;
+    color: #999;
+    font-size: 14px;
+}
+.answer-content {
+    margin-top: 10px;
+    line-height: 2;
+}
+.answer-content pre {
+    word-break: break-all;
+    white-space: pre-wrap;
+}
+.answer-attr {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+.edit-time, .answer-up, .answer-down {
+    float: left;
+    color: #999;
+    margin-right: 20px;
+}
+
+/*  回答问题 */
+.replay-contain {
+    margin-top: 20px;
+}
+#replaycontent {
+    width: 100%;
+    line-height: 1.5;
+    padding: 5px;
+    border-radius: 5px;
+}
+#replay {
+    border-style: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #5bc0de;
+    color: #FFFFEE;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.myquestin-anonymity {
+    margin: 10px 0;
+}
+.myquestin-anonymity label {
+    margin-right: 10px;
+}
